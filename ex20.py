@@ -30,12 +30,12 @@ print_all(current_file)
 # prints a string
 print("Now let's rewind, kind of like a tape.")
 
-# resets the file positon to 0 by passing the file 'current_file' as a parameter
-# to the funtion 'rewind()'
+# resets the file position(in bytes) to 0 by passing the file 'current_file'
+# as a parameter to the funtion 'rewind()'
 rewind(current_file)
 
 # prints a string
-print("Let's print three lines:")
+print("Let's print three lines: ")
 
 # assigns the variable 'current_line' a value of 1
 current_line = 1
@@ -43,7 +43,7 @@ current_line = 1
 print_a_line(current_line, current_file)
 
 # increments the variable 'current_line' by 1
-current_line = current_line + 1
+current_line+=1
 print_a_line(current_line, current_file)
 
 # increments the variable 'current_line' by 1
