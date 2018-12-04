@@ -1,0 +1,74 @@
+print()   a function that takes parameters and prints those to the screen
+
+,         separates arguments in a function call
+
+" "       defines a string
+
+' '       defines a string
+
++         math operator that adds values
+
+-         math operator that subtracts values
+
+*         math operator that multiplies values
+
+/         math operator that divides values
+
+%         math operator called the modulus that divides values and returns the remainder
+
+=         assignment operator that assigns the value on its right to the name on its left
+
+<         less-than equality operator
+
+>         greater-than equality operator
+
+>=        greater-than OR equal-to equality operator
+
+<=        less-than OR equal-to equality operator
+
+f         formats variables passed as parameters to the print into strings
+
+{ }       surround variables passed as parameters to the print function
+
+round()   function that returns a floating point number rounded off the given number ndigts.
+          if no ngdigits is provided, it rounds off the number to the nearest integer
+
+format()  takes arguments and applies them to {} inside of a print function
+
+\n        returns a new line
+
+\t        returns a tabbed line
+
+\\        returns a '\' character
+
+input()   prompts the user and accepts their input
+
+end= ' '  creates a whitespace at the end line
+
+from      specifies the location from which to import a module
+
+import    specifies a module to import into the current file
+
+argv      specifies the arguments the 'python' keyword accepts
+
+"""  """  allows a string to span multiple lines
+
+open()    accepts an arguments and opens it as a file object
+
+read()    reads a file's contents
+
+close()   closes a file and frees up system resources
+
+truncate()  truncates the file's size to the current position
+
+write()   writes to a file
+
+'w'       opens a file in write mode
+
+def       keyword that defines a function
+
+seek()    function that accepts a file position(in bytes) and goes to it
+
+rewind()  function that
+
+return    keyword that defines the return value of a function
