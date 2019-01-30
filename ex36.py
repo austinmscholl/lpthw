@@ -19,10 +19,10 @@ def learn_python():
     time.sleep(3)
 
     print("Let's see if you can use it correctly.")
-    print('Try typing the following characters, exactly as you see them: print("Does this really work?")')
+    print('Try typing the following characters, exactly as you see them: print("Hello, World!")')
     command = input(">>> ")
-    if command == 'print("Does this really work?")':
-        print("Does this really work?")
+    if command == 'print("Hello, World!")':
+        print("Hello, World!")
         time.sleep(2)
         print("Yay! You did it!")
         time.sleep(3)
@@ -53,10 +53,10 @@ def learn_java():
     time.sleep(3)
 
     print("Let's see if you can use it correctly.")
-    print('Try typing the following characters, exactly as you see them: System.out.printIn("Does this really work?")')
+    print('Try typing the following characters, exactly as you see them: System.out.printIn("Hello, World!")')
     command = input(">>> ")
-    if command == 'System.out.printIn("Does this really work?")':
-        print("Does this really work?")
+    if command == 'System.out.printIn("Hello, World!")':
+        print("Hello, World!")
         time.sleep(2)
         print("Yay! You did it!")
         time.sleep(3)
@@ -103,7 +103,7 @@ def start():
     name = input(">>> Hello human. What is your name? ")
 
     print(f">>> Hello {name}. I am Gonzo and I require your assistance.")
-    choice = input(">>> Are you ready? ")
+    choice = input(">>> Are you ready? (type 'yes' or 'no ')")
 
     if choice == "yes":
         learn_language()
